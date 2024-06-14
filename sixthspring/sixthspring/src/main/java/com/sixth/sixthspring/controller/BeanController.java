@@ -23,6 +23,7 @@ public class BeanController {
 	@RequestMapping("/display/{cd}")
 	public List<Bean1> display(@PathVariable int cd)
 	{
+		System.out.println("dfghjkl---");
 		return sc.display(cd);
 	}
 	@RequestMapping("/sample")
